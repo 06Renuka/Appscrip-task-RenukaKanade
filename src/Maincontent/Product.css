@@ -1,0 +1,31 @@
+/* Product.css */
+.product-container {
+    width: 100%; /* Each product container takes one-third of the width */
+    display: flex;
+    flex-direction: column;
+    
+    margin-bottom: 10px; 
+    
+  }
+  
+  .product-image-container {
+    width: 100%; /* Ensure the image container takes full width */
+  }
+  
+  .product-image {
+    width: 100%;
+   
+    height: auto;
+    aspect-ratio: 3/4; /* Maintain aspect ratio */
+  }
+  
+  .product-details {
+    padding-top: 10px;
+  }
+  
+  .liked-icon {
+    width: 20px;
+    height: auto;
+    align-self: flex-end;
+  }
+  
